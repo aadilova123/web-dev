@@ -1,0 +1,59 @@
+<!-- <div class="products">
+<div class = "product item" *ngFor="let product of products">
+    <h3>
+    <a [title]="product.name + ' details'">
+      {{ product.name }}
+      <br>
+      <p>
+        Price: {{product.price}}$
+        </p>
+      <p class = "rating"> <i>Rating:</i> {{product.rating}}</p>
+    </a>
+  </h3>
+
+  <img src = {{product.image}} width = "200px">  
+  
+
+    <p><a href = {{product.ref}} class = "aRef">More infromation</a></p>
+
+    <a href="https://telegram.me/share/url?url={{ product.ref }}" data-text="Take a look at this new item! You can read more information there!:" class = "btn">Share</a>
+    <hr id = "line">
+    <app-product-alerts
+    [product]="product"
+    (notify)="onNotify()">
+  </app-product-alerts>
+</div>
+</div> -->
+
+
+
+<h2 style="text-align:left; margin: 10px 0px;">Products</h2>
+<div class="products">
+  <div class="product-item" *ngFor="let product of products">
+
+      <h3>
+        <a routerLink="/product-item/+{{product.id}}" [state]="{ product:product }" [title]="product.name + ' details'" >
+          {{ product.name }}
+        </a>
+      </h3>
+      <p *ngIf="product.description">
+        <b> Description: </b> {{ product.description }}
+        </p>
+      <img src={{product.image}}>
+      <br>
+      <h4> {{ product.price }} $ <span style="color: red;float:right;font-size: 10px;"> rating: {{ product.rating }} </span></h4>
+      <p><a href = {{product.ref}} class = "aRef">More infromation</a></p>
+      
+    <a href="https://telegram.me/share/url?url={{ product.ref }}" data-text="Take a look at this new item! You can read more information there!:" class = "btn">Share</a>
+    <hr id = "line">
+      <div style="display:flex;justify-content:space-between">
+        <app-product-alerts
+          [product]="product"
+          (notify)="onNotify()">
+        </app-product-alerts>
+      </div>
+
+
+
+  </div>
+</div>

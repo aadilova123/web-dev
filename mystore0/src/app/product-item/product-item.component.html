@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="column">
+        <h3>
+            {{ product.product.name }}
+        </h3>
+        <p>
+          {{ product.product.description }}
+        </p>
+        <img id="main" src={{product.product.image}}>
+        <h4> {{ product.product.price }} $ <span style="color: red;"> rating: {{ product.product.rating }} </span></h4>
+  
+          <div *ngIf="product.product.image2" class="gallery">
+            <img id="1" (mouseenter)="zoomIn(1)" (mouseleave)="zoomOut(1)" src={{product.product.image}}>
+            <img id="2" (mouseenter)="zoomIn(2)" (mouseleave)="zoomOut(2)" src={{product.product.image2}}>
+            <img id="3" (mouseenter)="zoomIn(3)" (mouseleave)="zoomOut(3)" src={{product.product.image3}}>
+          </div>
+      </div>
+    <div class="column">
+      <h4> Characteristics: Super Cool Dima</h4>
+      <button (click)="Share()"> Go to alik </button>
+    </div>
+  </div>
