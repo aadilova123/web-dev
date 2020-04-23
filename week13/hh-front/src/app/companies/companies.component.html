@@ -1,0 +1,16 @@
+<!--<ul class="cards">-->
+<!--  <li *ngFor="let company of companies" class="cards__item">-->
+<!--    <div class="card">-->
+<!--      <div class="card__image card__image&#45;&#45;fence"></div>-->
+<!--      <div class="card__content">-->
+<!--        <div class="card__title">{{company.name}}</div>-->
+<!--        <button [routerLink]="['/companies', company.id]" class="btn btn&#45;&#45;block card__btn">Vacancies</button>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </li>-->
+<!--</ul>-->
+<div *ngFor="let company of companies">
+<a [routerLink]="'/company/' + company.id" class='shine' >{{company.name}}</a>
+<button (click)="deleteCompany(company.id)" class="delete">Delete</button>
+
+</div>

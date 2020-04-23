@@ -1,0 +1,36 @@
+.text{
+   margin: 5px 400px;
+}
+h1{
+  margin: 5px 400px;
+}
+
+input[type=text], input[type=password] {
+  width: 30%;
+  padding: 16px 20px;
+  margin: 5px 400px;
+  border-radius: 15px;
+  display: block;
+}
+
+
+.registerbtn2 {
+  background-color: #f8fbf6;
+  color: #272b80;
+  padding: 16px 20px;
+  margin: 8px 420px;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+.registerbtn {
+  background-color: #272b80;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 420px;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}

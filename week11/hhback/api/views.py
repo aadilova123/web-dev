@@ -1,7 +1,5 @@
-from django.shortcuts import render
 from django.http import JsonResponse
-# Create your views here.
-from api.models import Company,Vacancy
+from api.models import Company, Vacancy
 
 
 def company_list(request):

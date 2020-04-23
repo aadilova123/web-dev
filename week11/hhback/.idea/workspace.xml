@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de9c30f5-3489-405d-b56d-4adb9a94abc5" name="Default Changelist" comment="" />
+    <list default="true" id="de9c30f5-3489-405d-b56d-4adb9a94abc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../hh-front/.idea/hh-front.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hhback/.idea/hhback.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/week11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mystore/src/app/top-bar/top-bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../mystore/src/app/top-bar/top-bar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ef74ca63-b43b-4d1f-82e5-e0e367058289.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ef74ca63-b43b-4d1f-82e5-e0e367058289.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhback/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hhback/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hhback/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hhback/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/shop_back/.idea/dataSources/6abfbce3-420c-413c-9b98-b7de53a647eb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/shop_back/.idea/dataSources/6abfbce3-420c-413c-9b98-b7de53a647eb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week9/shop_back/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week9/shop_back/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +44,45 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="db" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="auth_user: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="auth_user_groups: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="django_admin_log: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="sqlite_master: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -36,7 +96,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1ZsmIm5iVwubYuPa6PIMj8ZH3te" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -44,8 +108,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shop_back" />
+    <property name="last_opened_file_path" value="$USER_HOME$/demo-env" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\webdev\week11\hhback\api\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\webdev\week11\hhback\api" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="hhback" type="Python.DjangoServer" factoryName="Django server">
@@ -84,6 +157,14 @@
       <option name="presentableId" value="Default" />
       <updated>1585636097315</updated>
       <workItem from="1585636221001" duration="11359000" />
+      <workItem from="1586102495826" duration="717000" />
+      <workItem from="1586105443405" duration="171000" />
+      <workItem from="1586961331553" duration="1151000" />
+      <workItem from="1587098797917" duration="7488000" />
+      <workItem from="1587150390768" duration="607000" />
+      <workItem from="1587197101356" duration="2543000" />
+      <workItem from="1587405664880" duration="2080000" />
+      <workItem from="1587455406060" duration="21342000" />
     </task>
     <servers />
   </component>
@@ -91,38 +172,55 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1585655634532">
+    <state x="233" y="2" key="#Inspections" timestamp="1587489746993">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585655634532" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585659003249">
+    <state x="233" y="2" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1587489746993" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587475398458">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585659003249" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585659003249">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1587475398458" />
+    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1587494629642">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585659003249" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585659003249">
+    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587494629642" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1587496121231">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585659003249" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585659003249">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587496121231" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1587496121231">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585659003249" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587496121231" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1587496121230">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587496121230" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1587496121231">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587496121231" />
     <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1585656989002">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="198" height="457" key="HiddenNamespacesPopup/0.0.1280.680@0.0.1280.680" timestamp="1585656989002" />
+    <state x="349" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1587455603430">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="349" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587455603430" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/api/models.py</url>
-          <line>30</line>
+          <line>48</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hhback/wsgi.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
